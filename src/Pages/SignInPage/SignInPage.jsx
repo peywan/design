@@ -7,6 +7,7 @@ function SignInPage() {
     <div className='sign-page-container'>
       <div className='sign-in wrapper content'>
         <h2>Logga In</h2>
+
         <form action=''>
           <label htmlFor='email'>
             <p>Användarnamn</p>
