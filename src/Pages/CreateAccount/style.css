@@ -1,0 +1,57 @@
+.create-account-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-container form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-container h2 {
+    color: #29488b;
+    margin: 0px 0 0px;
+    text-align: center;
+}
+
+
+.create-account-container label,
+.create-account-container input {
+    max-width: 330px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.create-account-container input {
+    height: 39px;
+    border: 0;
+}
+
+.create-account-container p {
+    color: #29488B;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+
+.terms-wrapper {
+    font-weight: bold;
+    margin: 25px 0;
+    max-width: 640px;
+    text-align: center;
+}
+
+.create-account-container span {
+    color: #ffffff;
+}
+
+.create-account-container button {
+    background-color: #29488B;
+    border: 0;
+    color: white;
+    font-size: 37px;
+    font-weight: bold;
+    max-width: 330px;
+    padding: 5px;
+    border-radius: 20px;
+}

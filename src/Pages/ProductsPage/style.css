@@ -1,0 +1,9 @@
+.products-page-container {
+    background-color: #B5DAEE;
+}
+
+.products-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

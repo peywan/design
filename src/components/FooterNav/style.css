@@ -1,0 +1,29 @@
+.footer-nav-container {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+
+}
+
+.footer-nav-container .icon-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    height: 150%;
+    justify-content: center;
+}
+
+.icon-container {
+    background-color: #29488b;
+    
+}
+
+
+.icon-container .icon {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 8px;
+}

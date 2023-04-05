@@ -1,0 +1,71 @@
+.modalBackground {
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(200, 200, 200, 0.335);
+    display: flex;
+    height: calc(100vh - 120px);
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.modalContainer {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 350px;
+    min-width: 250px;
+    padding: 25px;
+    width: 70%;
+
+}
+
+.modalContainer .title {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.modalContainer .body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.modalContainer .footer {
+    align-items: center;
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.modalContainer .footer button {
+    background-color: crimson;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    height: 45px;
+    margin: 10px;
+    width: 150px;
+}
+
+@media only screen and (max-width: 350px) {
+    .modalContainer {
+        width: 100%;
+    }
+
+}

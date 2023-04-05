@@ -1,0 +1,11 @@
+.single-product-page-container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 60px 0;
+    width: 100%;
+}
+
+.content {
+    background-color: #B5DAEE;
+    padding: 0 40px;
+}

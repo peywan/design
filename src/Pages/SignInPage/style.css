@@ -1,0 +1,74 @@
+.sign-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 20px 60px 20px;
+    width: 100%;
+
+}
+
+.sign-page-container h2 {
+    color: white;
+    margin: 60px 0 20px 0;
+    text-align: center;
+}
+
+.sign-page-container form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-page-container label,
+.sign-page-container input {
+    max-width: 330px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sign-page-container label {
+    margin: 10px 0;
+}
+
+.sign-page-container input {
+    height: 30px;
+}
+
+.sign-page-container p {
+    color: white;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+/* Link style */
+.sign-page-container .link-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sign-page-container .link-container a {
+    color: white;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sign-page-container button {
+    background-color: #29488B;
+    border: 0;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    height: 40px;
+    margin: 15px 0;
+    max-width: 330px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sign-page-container span {
+    color: #A726F2;
+}

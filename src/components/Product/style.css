@@ -1,0 +1,110 @@
+.product-container {
+    align-items: center;
+    background-color: #B5DAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .product-container.image {
+    background-color: #29488B;
+    margin-top: 10px;
+    max-height: 250px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .product-container.image img {
+    height: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .product-container .navigation {
+    align-items: center;
+    background-color: #29488B;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .actions {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .actions button {
+    border-radius: 3px;
+    border: 0;
+  }
+  
+  .actions button:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .actions .btn-edit svg,
+  .actions .btn-delete svg {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .actions .btn-delete {
+    background: #ef4806;
+  }
+  
+  .actions .btn-edit {
+    background-color: #ffffff;
+  }
+  
+  .icon-back {
+    color: white;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+  
+  .product-container .liked-btn {
+    padding-right: 8px;
+  }
+  
+  .product-container .text-content {
+    align-items: center;
+    background-color: #29488B;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .text-content .title {
+    margin: 10px 0;
+    padding-top: 20px;
+  }
+  
+  .text-content .description {
+    margin: 20px 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .contact-btn {
+    align-items: center;
+    background-color: #ffffff5e;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    height: 45px;
+    justify-content: space-evenly;
+    margin: 40px 10px 100px 10px;
+    width: 230px;
+  }
+  

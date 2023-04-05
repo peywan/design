@@ -1,0 +1,19 @@
+.liked-btn {
+    align-items: center;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    width: 35px;
+}
+
+.liked-btn .heart-white {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.liked-btn .heart-red {
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+}

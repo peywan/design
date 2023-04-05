@@ -1,0 +1,25 @@
+.navbar-container {
+    background-color: #29488B;
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+}
+
+.link-container {
+    align-items: center;
+    display: flex;
+    height: 160%;
+    justify-self: center;
+    width: fit-content;
+}
+
+.link-container .logo {
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    height: 70%;
+    object-fit: contain;
+    width: 100%;
+}
